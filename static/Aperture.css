@@ -102,6 +102,9 @@ ul li a {
 .gap {
   height: 150px;
 }
+.middlegap {
+  height: 90px;
+}
 .smallgap {
   height: 50px;
 }
@@ -134,16 +137,46 @@ ul li a {
 .curriculumblock {
   height: 170px;
 }
+.privaseeblock {
+  height: 200px;
+}
+.processblock {
+  width: 900px;
+}
 .halfgrid {
   width: 35%;
   margin-left: 11%;
   float: left;
 }
-.thirdgrid {
+.leftgrid {
   width: 26%;
-  margin-left: 5.5%;
+  margin-left: 9%;
+  margin-right: 1%;
+  float: left;
+}
+.middlegrid {
+  width: 26%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+}
+.rightgrid {
+  width: 26%;
+  margin-left: 1%;
+  margin-right: 9%;
   float: left;
 }
 .productphoto {
   margin-top: 20px;
+}
+.bold {
+  font-weight: bold;
+}
+.left {
+  float: left;
+}
+.list {
+  position: absolute;
+  padding-top: 15px;
+  left: 380px;
 }
