@@ -176,3 +176,6 @@ ul li a {
 .white {
   color: #FFFFFF;
 }
+.noborder {
+  border: 0px;
+}

@@ -8,9 +8,9 @@
 		<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='Aperture.css')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="../static/Aperture.js"></script>
+		<script src="{{url_for('static', filename='Aperture.js')}}"></script>
 	</head>
-	<body>
+	<body class="noborder">
     <div class="header">
   		<center>
         <a href="./main.html"><img src="{{url_for('static', filename='Photo/logo.png')}}" width="250" class="mainlogo"></a>
