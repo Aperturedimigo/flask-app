@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Develop by CatNote, Github https://github.com/CatNote, Email CatNote1@gmail.com -->
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -20,9 +21,11 @@
         <a href="./main.html"><img src="{{url_for('static', filename='Photo/logo.png')}}" width="250" class="mainlogo"></a>
       </center>
       <div id="nav">
+				<!-- 스크롤바 내리면 나타나는 상단 고정바 좌측 상단 로고 -->
 				<div class="sublogo hidden" id="sublogo">
 					<a href="./main.html"><img src="{{url_for('static', filename='Photo/logo-thin.png')}}" width="120" class="logo"></a>
 				</div>
+				<!-- 네비게이션 바, Scrollspy 지원 -->
         <ul class="middle">
           <li><a href="#About" id="t1">About</a></li>
 					<li><a href="#Vision" id="t2">Vision</a></li>
@@ -97,7 +100,7 @@
 							<span class="Profile">창업동아리원 이건호</span>
 						</li>
 						<li>
-							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}"> <!-- 정권우 -->
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}">
 							<span class="Profile">창업동아리원 정권우</span>
 						</li>
 					</ul>
@@ -111,7 +114,7 @@
 							<span class="Profile">창업동아리원 김민선</span>
 						</li>
 						<li>
-							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}"> <!-- 남태현 -->
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}">
 							<span class="Profile">창업동아리원 남태현</span>
 						</li>
 						<li>
@@ -125,7 +128,7 @@
 							<span class="Profile">창업동아리원 박정우</span>
 						</li>
 						<li>
-							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}"> <!-- 유민 -->
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}">
 							<span class="Profile">창업동아리원 유민</span>
 						</li>
 						<li>
@@ -145,6 +148,7 @@
 			<center><font class="title">Products</font></center>
 			<div class="smallgap"></div>
 			<div class="productblock">
+				<!-- 화면 2분할 -->
 				<div class="halfgrid">
 					<font class="big">광학 문자 인식(OCR)을 이용한 번역 어플리케이션</font>
 					<img src="{{url_for('static', filename='Photo/Products1.jpg')}}" class="productphoto" width="500">
@@ -173,6 +177,7 @@
 			<div class="smallgap"></div>
 			<center>
 				<div class="curriculumblock">
+					<!-- 화면 3분할 -->
 					<div class="leftgrid">
 						<div class="big"><b>March</b></div><br/>
 						<div class="middle">동아리 시작</div><br/>
@@ -208,6 +213,7 @@
 				<div class="smallgap"></div>
 			</center>
 			<div class="privaseeblock">
+				<!-- 화면 3분할 -->
 				<div class="leftgrid">
 					<div class="big"><b><center>빠릅니다.</center></b></div><br/>
 					<div class="middle">
