@@ -15,35 +15,35 @@ $(window).bind('scroll', function() {
       document.getElementById(N).classList.remove('underline');
     }
   }
-  else if($(window).scrollTop() < 900) {
+  else if($(window).scrollTop() < 880) {
     for(var i = 1; i <= 6; i++) {
       var N = 't' + i;
       if(i == 1) document.getElementById(N).classList.add('underline');
       else document.getElementById(N).classList.remove('underline');
     }
   }
-  else if($(window).scrollTop() < 1700) {
+  else if($(window).scrollTop() < 1650) {
     for(var i = 1; i <= 6; i++) {
       var N = 't' + i;
       if(i == 2) document.getElementById(N).classList.add('underline');
       else document.getElementById(N).classList.remove('underline');
     }
   }
-  else if($(window).scrollTop() < 2720) {
+  else if($(window).scrollTop() < 2680) {
     for(var i = 1; i <= 6; i++) {
       var N = 't' + i;
       if(i == 3) document.getElementById(N).classList.add('underline');
       else document.getElementById(N).classList.remove('underline');
     }
   }
-  else if($(window).scrollTop() < 3280) {
+  else if($(window).scrollTop() < 3220) {
     for(var i = 1; i <= 6; i++) {
       var N = 't' + i;
       if(i == 4) document.getElementById(N).classList.add('underline');
       else document.getElementById(N).classList.remove('underline');
     }
   }
-  else if($(window).scrollTop() < 3690) {
+  else if($(window).scrollTop() < 3640) {
     for(var i = 1; i <= 6; i++) {
       var N = 't' + i;
       if(i == 5) document.getElementById(N).classList.add('underline');
