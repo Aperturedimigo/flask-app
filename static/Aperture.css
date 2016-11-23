@@ -1,0 +1,149 @@
+/*
+ * Nanum Barun Gothic (Korean) http://hangeul.naver.com
+ */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  src: local('./Roboto-Thin.ttf');
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  src: local('./NanumBarunGothic.ttf');
+}
+html {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+@charset "utf-8";
+/* CSS Document */
+.navbar-fixed {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: solid 3px #000000;
+}
+#nav {
+    text-align: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+ul {
+    text-align: center;
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
+}
+ul li {
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+}
+#nav ul li a:hover {
+    color: #CD0000;
+}
+#div {
+  text-align: center;
+}
+.Profile span {
+  display: block;
+  font-family: 'NanumBarunGothic';
+  font-weight: 300;
+  margin-top: 10px;
+}
+.round_top {
+  border-radius: 50%;
+  width: 130px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.round_bottom {
+  border-radius: 50%;
+  width: 130px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.title {
+  font-size: 40px;
+}
+.logo {
+  position: absolute;
+  left: 10px;
+  top: 9px;
+}
+.sublogo {
+  float:left;
+}
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+.mainlogo {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.gap {
+  height: 150px;
+}
+.smallgap {
+  height: 50px;
+}
+.tinygap {
+  height: 20px;
+}
+.big {
+  font-size: 20px;
+}
+.middle {
+  font-size: 17px;
+}
+.small {
+  font-size: 15px;
+}
+.tiny {
+  font-size: 14px;
+}
+.centerphoto {
+  display: block;
+  width:600px;
+  margin:40px;
+}
+.bottomlist {
+  margin-top: 40px;
+}
+.productblock {
+  height: 300px;
+}
+.curriculumblock {
+  height: 170px;
+}
+.halfgrid {
+  width: 35%;
+  margin-left: 11%;
+  float: left;
+}
+.thirdgrid {
+  width: 26%;
+  margin-left: 5.5%;
+  float: left;
+}
+.productphoto {
+  margin-top: 20px;
+}
