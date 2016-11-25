@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -253,3 +254,267 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<!-- Develop by CatNote, Github https://github.com/CatNote, Email CatNote1@gmail.com -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Aperture page</title>
+		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-16.png')}}">
+		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-32.png')}}">
+		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-48.png')}}">
+		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-64.png')}}">
+		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-128.png')}}">
+
+		<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='Aperture.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="{{url_for('static', filename='Aperture.js')}}"></script>
+	</head>
+	<body class="noborder">
+    <div class="header">
+  		<center>
+        <a href="."><img src="{{url_for('static', filename='Photo/logo.png')}}" width="250" class="mainlogo"></a>
+      </center>
+      <div id="nav">
+				<!-- 스크롤바 내리면 나타나는 상단 고정바 좌측 상단 로고 -->
+				<div class="sublogo hidden" id="sublogo">
+					<a href="."><img src="{{url_for('static', filename='Photo/logo-thin.png')}}" width="120" class="logo"></a>
+				</div>
+				<!-- 네비게이션 바, Scrollspy 지원 -->
+        <ul class="middle">
+          <li><a href="#About" id="t1">About</a></li>
+					<li><a href="#Vision" id="t2">Vision</a></li>
+          <li><a href="#Member" id="t3">Member</a></li>
+          <li><a href="#Products" id="t4">Products</a></li>
+          <li><a href="#Curriculum" id="t5">Curriculum</a></li>
+					<li><a href="#PrivaSee" id="t6">PrivaSee</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="gap" id="About"></div>
+    <div>
+      <center>
+        <font class="title">Computer + Science = ?</font>
+        <img src="{{url_for('static', filename='Photo/About.jpg')}}" class="centerphoto">
+        <font class="middle">
+					<b>에퍼쳐(Aperture)</b>는 영상 처리를 통한 상품 및 웹 서비스를 개발하는 교내 유일 컴퓨터 과학 동아리입니다.<br/><br/>
+				</font>
+				<font class="small">
+					놀라우리만치 넓은 컴퓨터과학 분야의 전부를 연구하는 것은 무리가 있기에, <u>매년 새로운 주제</u>를 정하여 연구를 진행하고 있는데요.<br/>
+					올해는 최근 여러 가지 <b>IoT 디바이스</b>의 보급으로 그 수요가 급증하고 있는 이미지 프로세싱을 세부 연구 주제로 잡게 되었습니다.<br/>
+					창업동아리 프로젝트의 일환으로 얼굴 인식 기술을 이용한 잠금장치인 <b>'PrivaSee'</b>의 개발을 진행하고 있습니다.
+				</font>
+      </center>
+    </div>
+		<div class="gap" id="Vision"></div>
+    <div>
+			<center>
+        <font class="title">Vision</font>
+        <img src="{{url_for('static', filename='Photo/Vision.jpg')}}" class="centerphoto">
+        <font class="middle">
+					<b>"세상을 보는 시각을 창조하자."</b><br/><br/>
+				</font>
+				<font class="small">
+					단어 Aperture는 <b>조리개</b>라는 뜻을 가지고 있습니다.<br/>
+					사진을 찍을 때, 조리개값의 설정에 따라서 같은 사진이라도 상당히 어두컴컴한 사진이 되기도, 화사한 사진이 되기도 합니다.<br/>
+					저희의 목표는 사람들이 <b>자신들의 세상을 색다른 시각에서 바라볼 수 있도록 하는 동아리</b>가 되는 것입니다.
+				</font>
+      </center>
+		</div>
+		<div class="gap" id="Member"></div>
+    <div>
+			<center>
+				<font class="title">Member</font><br/>
+				<div class="smallgap"></div>
+				<div class="Profile">
+					<ul>
+						<li>
+							<img class="round_top" src="{{url_for('static', filename='Photo/최명원.jpg')}}">
+							<span class="Profile">창업동아리장 최명원</span>
+						</li>
+						<li>
+							<img class="round_top" src="{{url_for('static', filename='Photo/송혜민.jpg')}}">
+							<span class="Profile">일반동아리장 송혜민</span>
+						</li>
+						<li>
+							<img class="round_top" src="{{url_for('static', filename='Photo/김민성.jpg')}}">
+							<span class="Profile">창업동아리원 김민성</span>
+						</li>
+					</ul>
+					<ul class="bottomlist">
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/김무열.jpg')}}">
+							<span class="Profile">창업동아리원 김무열</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/박문수.jpg')}}">
+							<span class="Profile">창업동아리원 박문수</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/이건호.jpg')}}">
+							<span class="Profile">창업동아리원 이건호</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}">
+							<span class="Profile">일반동아리원 정권우</span>
+						</li>
+					</ul>
+					<ul class="bottomlist">
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/권순호.jpg')}}">
+							<span class="Profile">창업동아리원 권순호</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/김민선.jpg')}}">
+							<span class="Profile">일반동아리원 김민선</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}">
+							<span class="Profile">일반동아리원 남태현</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/노승수.jpg')}}">
+							<span class="Profile">창업동아리원 노승수</span>
+						</li>
+					</ul>
+					<ul class="bottomlist">
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/박정우.jpg')}}">
+							<span class="Profile">창업동아리원 박정우</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/NoImage.jpg')}}">
+							<span class="Profile">창업동아리원 유민</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/정윤교.jpg')}}">
+							<span class="Profile">창업동아리원 정윤교</span>
+						</li>
+						<li>
+							<img class="round_bottom" src="{{url_for('static', filename='Photo/한창희.jpg')}}">
+							<span class="Profile">창업동아리원 한창희</span>
+						</li>
+					</ul>
+				</div>
+			</center>
+    </div>
+		<div class="gap" id="Products"></div>
+    <div>
+			<center><font class="title">Products</font></center>
+			<div class="smallgap"></div>
+			<div class="productblock">
+				<!-- 화면 2분할 -->
+				<div class="halfgrid">
+					<font class="big">광학 문자 인식(OCR)을 이용한 번역 어플리케이션</font>
+					<img src="{{url_for('static', filename='Photo/Products1.jpg')}}" class="productphoto" width="500">
+					<div class="tinygap"></div>
+					<font class="small">
+						세상에 내가 아는 말만 써 있다면 정말 좋겠지만, 안타깝게도 세상이 그렇게 호락호락하지 않은 것 같군요.
+						저의 Aperture에서는 광학 문자 인식 라이브러리인 Tesseract를 이용하여 이미지에서 <b>글자를 인식, 번역하여 사용자에게 표시하는 애플리케이션</b>을 제작하였습니다.
+						텍스트의 인식률과 반응 속도 증강을 목표로 제작에 임했습니다.
+					</font>
+				</div>
+				<div class="halfgrid">
+					<font class="big">머신러닝을 이용한 야구 데이터 분석 및 예측</font>
+					<img src="{{url_for('static', filename='Photo/Products2.jpg')}}" class="productphoto" width="500">
+					<div class="tinygap"></div>
+					<font class="small">
+						최근 이세돌 선수와 알파고의 대결에서 알파고가 승리를 거두면서 <b>기계학습</b>에 대한 주목도가 높아지고 있습니다.
+						이 서비스에서는 KBO에 등록된 선수들의 정보를 Python을 통하여 파싱한 후 기계학습을 통하여 <b>선수의 강점과 약점, 타자 스탯 등을 분석</b>하여 그래프로 나타내고,
+						선수의 성장 가능성과 예상되는 성적을 예측하여 알려줍니다.
+					</font>
+				</div>
+			</div>
+    </div>
+		<div class="gap" id="Curriculum"></div>
+    <div>
+			<center><font class="title">2016 Curriculum</font></center>
+			<div class="smallgap"></div>
+			<center>
+				<div class="curriculumblock">
+					<!-- 화면 3분할 -->
+					<div class="leftgrid">
+						<div class="big"><b>March</b></div><br/>
+						<div class="middle">동아리 시작</div><br/>
+						<div class="tiny">
+							동아리에 들어온 신입생들의 교육을 시작합니다.<br/>
+							C++ 기초부터 이미지 프로세싱까지 자세히 학습하게 됩니다.
+						</div>
+					</div>
+					<div class="middlegrid">
+						<div class="big"><b>July</b></div><br/>
+						<div class="middle">교육 완료</div><br/>
+						<div class="tiny">
+							교육을 끝내고, 프로젝트의 진행을 시작합니다.<br/>
+							각자 자신의 역할을 맡아 팀 별로 개발하게 됩니다.
+						</div>
+					</div>
+					<div class="rightgrid">
+						<div class="big"><b>December</b></div><br/>
+						<div class="middle">'PrivaSee' 릴리즈</div><br/>
+						<div class="tiny">
+							프로토타입의 개발이 끝난 후 제품을 공개합니다.<br/>
+							킥스타터 등의 클라우드 펀딩 플랫폼을 통하여 제품을 판매, 피드백을 수용하고 제품을 개선합니다.
+						</div>
+					</div>
+				</div>
+			</center>
+    </div>
+		<div class="gap" id="PrivaSee"></div>
+		<div>
+			<center>
+				<img src="../static/Photo/PrivaSee.jpg" width="300"><br/><br/><br/>
+				<img src="../static/Photo/PrivaSee1.jpg" width="1000">
+				<div class="smallgap"></div>
+			</center>
+			<div class="privaseeblock">
+				<!-- 화면 3분할 -->
+				<div class="leftgrid">
+					<div class="big"><b><center>빠릅니다.</center></b></div><br/>
+					<div class="middle">
+						비밀번호를 입력하거나 열쇠를 이용해야만 하는 기존의 자물쇠와는 다르게, PrivaSee는 얼굴 인식을 통해 사물함을 열게 되므로 속도가 빠릅니다.
+					</div>
+				</div>
+				<div class="middlegrid">
+					<div class="big"><b><center>간편합니다.</center></b></div><br/>
+					<div class="middle">
+						비밀번호를 잊어버려도, 열쇠를 잃어버려도 이제는 걱정할 필요 없습니다. 사용 방법 또한 매우 간편해서, 처음 사용하는 누구라도 금방 익힐 수 있습니다.
+					</div>
+				</div>
+				<div class="rightgrid">
+					<div class="big"><b><center>안전합니다.</center></b></div><br/>
+					<div class="middle">
+						얼굴 데이터는 모든 사용자가 상이하며, 개개인을 구별할 수 있는 좋은 열쇠입니다. 사용자의 데이터는 보드만의 로컬 데이터로 저장되어, 그 누구도 접근할 수 없습니다.
+					</div>
+				</div>
+			</div>
+			<center>
+				<div class="processblock">
+					<div class="title left">01</div>
+					<div class="middle list left">카메라가 사용자의 얼굴을 촬영합니다. (Camera takes the user's face.)</div>
+					<div class="middlegap"></div>
+					<div class="title left">02</div>
+					<div class="middle list left">이미지 프로세싱 모듈에서 이미지를 확인합니다. (Image processing module recognises the image.)</div>
+					<div class="middlegap"></div>
+					<div class="title left">03</div>
+					<div class="middle list left">잠금이 해제되어 사물함을 사용할 수 있습니다. (Now you can use the lockers.)</div>
+				</div>
+			</center>
+    </div>
+		<div class="middlegap"></div>
+		<center>
+			<div class="black">
+				<div class="tinygap"></div>
+				<a href="https://www.facebook.com/apertureindimigo"><img src="{{url_for('static', filename='facebook.png')}}"></a>
+				<div class="tinygap"></div>
+				<div class="white">
+					Copyright© 2016 by Aperture. All Rights Reserved.
+				</div>
+				<div class="smallgap"></div>
+			</div>
+		</center>
+	</body>
+</html>
+>>>>>>> 2942371e1533a4f7b827e186c06a2f60c3116b90

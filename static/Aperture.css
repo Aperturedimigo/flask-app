@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face
 {
     font-family: 'NanumBarunGothic';
@@ -288,3 +289,186 @@ ul li a
 {
     margin: 0;
 }
+=======
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  src: local('./NanumBarunGothic.ttf');
+}
+html {
+  font-family: 'NanumBarunGothic';
+  font-weight: 300;
+}
+@charset "utf-8";
+.navbar-fixed {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: solid 3px #000000;
+}
+#nav {
+    text-align: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+ul {
+    text-align: center;
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
+}
+ul li {
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+}
+#nav ul li a:hover {
+    color: #CD0000;
+}
+#div {
+  text-align: center;
+}
+.Profile span {
+  display: block;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.round_top {
+  border-radius: 50%;
+  width: 130px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.round_bottom {
+  border-radius: 50%;
+  width: 130px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.title {
+  font-size: 40px;
+}
+.logo {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+.sublogo {
+  float:left;
+}
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+.mainlogo {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.gap {
+  height: 150px;
+}
+.middlegap {
+  height: 90px;
+}
+.smallgap {
+  height: 50px;
+}
+.tinygap {
+  height: 20px;
+}
+.big {
+  font-size: 20px;
+}
+.middle {
+  font-size: 17px;
+}
+.small {
+  font-size: 15px;
+}
+.tiny {
+  font-size: 14px;
+}
+.centerphoto {
+  display: block;
+  width:600px;
+  margin:40px;
+}
+.bottomlist {
+  margin-top: 40px;
+}
+.productblock {
+  height: 300px;
+}
+.curriculumblock {
+  height: 170px;
+}
+.privaseeblock {
+  height: 200px;
+}
+.processblock {
+  width: 900px;
+}
+.halfgrid {
+  width: 35%;
+  margin-left: 11%;
+  float: left;
+}
+.leftgrid {
+  width: 26%;
+  margin-left: 9%;
+  margin-right: 1%;
+  float: left;
+}
+.middlegrid {
+  width: 26%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+}
+.rightgrid {
+  width: 26%;
+  margin-left: 1%;
+  margin-right: 9%;
+  float: left;
+}
+.productphoto {
+  margin-top: 20px;
+}
+.underline {
+  border-bottom: solid 4px #000000;
+  padding-bottom:3px;
+}
+.left {
+  float: left;
+}
+.list {
+  padding-top: 15px;
+  margin-left: 30px;
+}
+.black {
+  background-color: #000000;
+}
+.white {
+  color: #FFFFFF;
+}
+.noborder {
+  margin: 0px;
+}
+>>>>>>> 2942371e1533a4f7b827e186c06a2f60c3116b90
