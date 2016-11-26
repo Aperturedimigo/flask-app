@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<!-- Web Develop by CatNote, Github https://github.com/CatNote, Email : CatNote1@gmail.com -->
-<!-- Server Develop by Mase, Github https://github.com/MaseKor, Email : leynuxms@gmail.com-->
+<!-- Web Develop by CatNote, Github : https://github.com/CatNote, Email : CatNote1@gmail.com -->
+<!-- Server Develop by Mase, Github : https://github.com/MaseKor, Email : leynuxms@gmail.com-->
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>Aperture page</title>
+
+		<!--안드로이드 5.0 이상일 시에 상단바를 검정으로 바꿈 -->
+		<meta name="theme-color" content="#000000">
+		<!-- favicon -->
 		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-16.png')}}">
 		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-32.png')}}">
 		<link rel="shortcut icon" href="{{url_for('static', filename='favicon-48.png')}}">
@@ -16,6 +20,7 @@
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="{{url_for('static', filename='Aperture.js')}}"></script>
 	</head>
+
 	<body class="noborder">
     <div class="header">
   		<center>
@@ -68,7 +73,8 @@
       </center>
 		</div>
 		<div class="gap" id="Member"></div>
-    <div>
+		<!-- 멤버 -->
+		<div>
 			<center>
 				<font class="title">Member</font><br/>
 				<div class="smallgap"></div>
