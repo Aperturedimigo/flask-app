@@ -1,0 +1,180 @@
+*,
+*:after,
+*:before
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #313654;
+}
+
+.ryan
+{
+    position: relative;
+
+    width: 400px;
+    height: 380px;
+    margin: 50px auto;
+}
+
+.ryan .ear
+{
+    position: absolute;
+    top: 0;
+
+    width: 92px;
+    height: 92px;
+
+    border: 10px solid #000;
+    border-radius: 100%;
+    background: #d59729;
+}
+
+.ryan .ear.left
+{
+    left: 54px;
+}
+
+.ryan .ear.right
+{
+    right: 54px;
+}
+
+.ryan .face
+{
+    position: absolute;
+    bottom: 0;
+
+    width: 400px;
+    height: 367px;
+
+    border: 10px solid #000;
+    border-radius: 100%;
+    background: #d59729;
+}
+
+.ryan .eyebrow
+{
+    position: absolute;
+    top: 106px;
+
+    width: 78px;
+    height: 14px;
+
+    transition: all .2s;
+
+    border-radius: 14px;
+    background: #000;
+}
+
+.ryan .eyebrow.left
+{
+    left: 68px;
+}
+
+.ryan .eyebrow.right
+{
+    right: 68px;
+}
+
+.ryan .eye
+{
+    position: absolute;
+    top: 147px;
+
+    width: 26px;
+    height: 26px;
+
+    transition: all .2s;
+
+    border-radius: 100%;
+    background: #000;
+}
+
+.ryan .eye.left
+{
+    left: 98px;
+}
+
+.ryan .eye.right
+{
+    right: 98px;
+}
+
+.ryan .nose
+{
+    position: absolute;
+    z-index: 2;
+    top: 184px;
+    left: 50%;
+
+    width: 32px;
+    height: 33px;
+    margin-left: -16px;
+
+    border-radius: 80% 80% 100% 100%;
+    background: #000;
+}
+
+.ryan .mouth
+{
+    position: absolute;
+    top: 191px;
+    right: 73px;
+
+    width: 73px;
+    height: 68px;
+
+    border: 10px solid #000;
+    border-radius: 50%;
+    background: #fff;
+}
+.ryan .mouth.left
+{
+    left: 127px;
+}
+
+.ryan .mouth.right
+{
+    right: 127px;
+}
+
+.ryan .mouth:before
+{
+    position: absolute;
+    z-index: 1;
+
+    width: 30px;
+    height: 33px;
+
+    content: '';
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+
+    background: #fff;
+}
+
+.ryan .mouth.left:before
+{
+    top: 2px;
+    left: 29px;
+}
+
+.ryan .mouth.right:before
+{
+    top: 2px;
+    right: 31px;
+}
+
+
+
+.under
+{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-size: roboto;
+
+}
