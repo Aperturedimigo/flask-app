@@ -7,7 +7,7 @@
 
 body
 {
-    background: #313654;
+    background: white;
 }
 
 .ryan
@@ -168,13 +168,21 @@ body
     right: 31px;
 }
 
-
+@font-face{font-family:'donghwa'; src:url('./210 동화책B.ttf')}
 
 .under
 {
     text-align: center;
     font-size: 3rem;
-    color: white;
-    font-size: roboto;
+    color: #d59729;
+    font-family: 'donghwa';
+    font-style: bold;
 
+}
+.under .title404{
+  color: rgb(255, 92, 92);
+}
+
+.under .content{
+  font-size: 2rem;@important;
 }
