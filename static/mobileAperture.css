@@ -119,9 +119,11 @@ ul li a {
 .tiny {
   font-size: 13.5px;
 }
+.title2 {
+  font-size: 16px;
+}
 .centerphoto {
   display: block;
-  width:600px;
   margin:40px;
 }
 .bottomlist {
