@@ -7,7 +7,7 @@
 
 body
 {
-    background: white;
+    background: #d59729;
 }
 
 .ryan
@@ -174,15 +174,16 @@ body
 {
     text-align: center;
     font-size: 3rem;
-    color: #d59729;
+    color: white;
     font-family: 'donghwa';
     font-style: bold;
 
 }
 .under .title404{
-  color: rgb(255, 92, 92);
+  color: rgb(255, 91, 91);
+  font-size: 5rem;
 }
 
 .under .content{
-  font-size: 2rem;@important;
+  font-size: 3rem;@important;
 }
